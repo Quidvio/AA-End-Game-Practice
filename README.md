@@ -25,8 +25,8 @@ You would need to...
 4. Edit the chest content/locations to your liking.  
 5. Use F3+I on the chest to generate a setblock command with its blockdata..  
 6. Replace the setblock command with the new one generated.  
-   - Note that you must make sure you keep the execute portion of the original command.  
-   - Note that the coordinates should stay the same as the original setblock command as well.  
+  - Note that you must make sure you keep the execute portion of the original command.  
+  - Note that the coordinates should stay the same as the original setblock command as well.  
 7. Save the datapack and that should be all. 
 
 
