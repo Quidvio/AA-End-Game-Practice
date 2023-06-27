@@ -24,10 +24,10 @@ You would need to...
 3. Paste it into a command block and run it.  
 4. Edit the chest content/locations to your liking.  
 5. Use F3+I on the chest to generate a setblock command with its blockdata..  
-6. Replace the setblock command with the new one generated.
-  - Note that you must make sure you keep the execute portion of the original command.  
-  - Note that the coordinates should stay the same as the original setblock command as well.  
+6. Replace the setblock command with the new one generated.  
+   - Note that you must make sure you keep the execute portion of the original command.  
+   - Note that the coordinates should stay the same as the original setblock command as well.  
 7. Save the datapack and that should be all. 
 
 
-[^1] Stronghold ring. 160 blocks out in the nether, or 1280+ blocks out in the overworld.
+[^1]: Stronghold ring. 160 blocks out in the nether, or 1280+ blocks out in the overworld.
