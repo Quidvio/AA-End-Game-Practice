@@ -1,10 +1,33 @@
-# AA-End-Game-Practice
-Practice Datapack and Seed List for AA End Game
+# AA End-Game Practice
+Practice Datapack and Seed List for the End-Game Split of an All Advancements Speedrun.
 
+## Info  
 Datapack is self-explanatory, but I'll explain two features:
 
-If you place the blind portal in the ring (160 blocks out in the nether, or 1280+ blocks out in the overworld), you will spawn a stronghold's starter with the only room being portal room with filled in eyes.
+If you place a nether portal in the ring[^1] and go through, you will spawn in a Strongold with only the Portal Room with a lit End Portal.  
 
-Use this to get into the end to do the End Again.
+Use this to get into the end to do The End Again Advancement. 
 
-The Seed List filters for an AA spawn (not jungle/taiga/forest) near desert, with an Outpost within 32RD of spawn, and a Monument and Village within 32RD of the Outpost. Ocean/River near spawn is not filtered for.
+---
+
+## Seed List
+
+The Seed List is filtered for a typical AA spawn (not jungle/taiga/forest) near desert, with an Outpost within 32RD of spawn, and a Monument and Village within 32RD of the Outpost.  
+Ocean/River near spawn is not filtered for.  
+
+---
+
+It *is* possible to change the layout of the kit items/shulker box, but it is not very user friendly.  
+You would need to...
+1. Open the kit.mcfunction file.  
+2. Copy the execute... setblock command for the chest.  
+3. Paste it into a command block and run it.  
+4. Edit the chest content/locations to your liking.  
+5. Use F3+I on the chest to generate a setblock command with its blockdata..  
+6. Replace the setblock command with the new one generated.
+  - Note that you must make sure you keep the execute portion of the original command.  
+  - Note that the coordinates should stay the same as the original setblock command as well.  
+7. Save the datapack and that should be all. 
+
+
+[^1] Stronghold ring. 160 blocks out in the nether, or 1280+ blocks out in the overworld.
